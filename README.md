@@ -17,6 +17,6 @@ The Controller used is i.e. Arduino Nano. Basically, data acquisition using micr
 
 ## Dataset Source and Data Processing
 
-Before make a prediction for blood pressure value
+Before make a prediction for blood pressure value, i used dataset that contains PPG raw signal and the value from 219 subject. The dataset can be accessed at 
 
 ## Two Element Windkessel Model
