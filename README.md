@@ -1,10 +1,12 @@
 # RC_TwoElementWindkesselModel_PPGDevice
 
-### Rakha Wisnu Bagaskara
-### Physics Engineering'18
+### Rakha Wisnu Bagaskara_Physics Engineering'18
 
 ## Description About Repository
-This is my final project at physics engineering major, Gadjah Mada University. The title of my final Project is Planning and Design Toe Blood Pressure Measurement System - Based on Photoplethysmography for Peripheral Arterial Disease Early Detection. This repository This repository contains programs used on personal computers with the main programming language, Python. The main purpose of this repository is showing the uses of machine learning algorithm i.e. Random Forest Regressor for prediction the value of R and C in Two Element Windkessel Model
+This is my final project at physics engineering major, Gadjah Mada University. The title of my final Project is Planning and Design Toe Blood Pressure Measurement System - Based on Photoplethysmography for Peripheral Arterial Disease Early Detection. This repository This repository contains programs used on personal computers with the main programming language, Python. The main purpose of this repository is showing the uses of machine learning algorithm i.e. Random Forest Regressor for prediction the value of R and C in Two Element Windkessel Model. The input for this program is the raw signal of PPG (digital data with ADC in 10bit) and below is the output from this program:
+* MAE value for R and C in Two Element Windkessel Model
+* Prediction of actual value the Toe Blood Pressure
+* User Interface for the blood pressure value
 
 ## System Insight
 In addition, the following is a block diagram of this system.
