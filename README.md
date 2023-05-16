@@ -19,6 +19,18 @@ The Controller used is i.e. Arduino Nano. Basically, data acquisition using micr
 
 ## Dataset Source and Data Processing
 
-Before make a prediction for blood pressure value, i used dataset that contains PPG raw signal and the value from 219 subject. The dataset can be accessed at 
+Before make a prediction for blood pressure value, i used dataset that contains PPG raw signal and the value from 219 subject. The dataset can be accessed at [PPG-BP Dataset](https://figshare.com/articles/dataset/PPG-BP_Database_zip/5459299). This dataset used for training and testing blood pressure value and get the minimum MAE (Mean Absolute Error) with tunning hyperparameter i.e n_estimator and max_features. For get this value, there are several file and program that is used for, i.e as follows:
+* database.csv
+* sqi.csv
+* PPG-BP_sqi.csv (the fusion of database.csv and sqi.csv and sqi stand for signal quality index)
+* Program_Olah_Sinyal_Dataset.py (this program is used for raw signal processing)
+* Program_Model_Estimasi.py (this program is used for build the estimation model from Random Forest Regression Algorithm)
+
+The first step is data acquisition with PPG Sensor that connected to microcontroller. At this step, Arduino Nano has programmed with the acquisition program using Arduino IDE. The raw data obtained is 16 bit data which is the limit of the Analog to Digital Converter (ADC) from the PPG sensor. Arduino Nano had a processor function at this project (not controller), because this item just process the raw data from the sensor to the Main Control Unit (MCU / PC). Data processing occurs in the main control unit. The program that used in MCU for this time as follows:
+* Program_PengukuranUtama.py (the main program for prediction BP value)
+* identitas.py (the GUI program for patient demographic)
+* ppgbp.py (the GUI program for show the actual BP value every 2 second)
+
+All the BP Value is recorded and stored in an internal database.
 
 ## Two Element Windkessel Model
