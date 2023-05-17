@@ -41,3 +41,12 @@ The Windkessel Model is a mathematical model that describes the cardiovascular s
 </p>
 
 This model is used for build training model and get the minimum MAE value of R and C. After formula derivation and machine learning model building with Random Forest Regression algorithm in Program_Model_Estimasi.py, the following results were obtained.
+
+<p align="center">
+  <img src="https://github.com/BagaskaraRW/RC_TwoElementWindkesselModel_PPGDevice/blob/main/PictureR.png" />
+</p>
+<p align="center">
+  <img src="https://github.com/BagaskaraRW/RC_TwoElementWindkesselModel_PPGDevice/blob/main/PictureC.png" />
+</p>
+
+The result show the minimum value for is 0.154897 for R and 0.142881 for C with RFR Machine Learning Algorithm.
