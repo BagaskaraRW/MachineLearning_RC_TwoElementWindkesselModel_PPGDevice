@@ -34,3 +34,4 @@ The first step is data acquisition with PPG Sensor that connected to microcontro
 All the BP Value is recorded and stored in an internal database.
 
 ## Two Element Windkessel Model
+The Windkessel Model is a mathematical model that describes the cardiovascular system in humans in the form of electrical circuits. The model can mathematically relate blood flow and blood pressure in the arteries. In this analogy, the flow of arterial blood is described as the flow of fluid through a pipe. In the simplest form of the Windkessel model (two – element Windkessel model), total peripheral resistance or systemic vascular resistance (SVR) and arterial compliance are modeled as resistance (R in mmHg.s/mL) and capacitance (C in mL/mmHg).
